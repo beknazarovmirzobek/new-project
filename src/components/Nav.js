@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Nav = () => {
     return (
         <StyledNav>
-            <h1><a id="logo" href="#">Capture</a></h1>
+            <h1><a id="logo" href="/">Capture</a></h1>
             <ul>
                 <li>
                     <a href="/">1. About Us</a>

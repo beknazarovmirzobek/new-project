@@ -7,6 +7,7 @@ import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
 
 import { Switch, Route } from 'react-router-dom';
+import MoiveDetail from "./components/ModeiDetailes";
 
 
 function App() {
@@ -19,8 +20,11 @@ function App() {
         <Route path="/" exact>
           <AboutUs />
         </Route>
-        <Route path="/work">
+        <Route path="/work" exact>
           <OurWork />
+        </Route>
+        <Route path="/work/:id">
+          <MoiveDetail />
         </Route>
         <Route path="/contact">
           <ContactUs />

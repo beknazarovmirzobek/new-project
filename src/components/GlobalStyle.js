@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background: #1b1b1b;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     button {
